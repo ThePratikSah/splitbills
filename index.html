@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand ml-5 blog-header-logo text-dark" href="#">Navbar</a>
+    </nav>
+    <div class="row d-flex justify-content-center mt-5 px-3 py-3 pb-md-4">
+        <div class="col col-lg-4 col-md-12">
+            <div class="card">
+                <div class="card-body justify-content-center">
+
+                    <h1 class="mb-3">Bill Splitter</h1>
+                    <label class="text-center" for="Bill">Enter the bill amount</label><br>
+                    <input class="form-control" type="number" id="bill" value="0" placeholder="Rs 0.00"><br>
+
+                    <label class="text-center" for="tip">Enter the tip</label><br>
+                    <input class="form-control" type="number" id="tip" value="0" placeholder="Rs 0.00"><br>
+
+                    <label class="text-center" for="person">Enter the number of person</label><br>
+                    <input class="form-control" type="number" id="person" value="1"><br>
+
+                    <button class="btn btn-success mt-1 mb-3" onclick="call()">Calculate</button><br>
+
+                    <label class="text-center" for="perperson">Amt/person(approx.)</label><br>
+                    <input class="form-control" type="number" id="perperson">
+
+                </div>
+            </div>
+
+            <!-- copyright section -->
+            <p class="small mt-4 text-center credit">&copy; 2018 Copyright. <a href="https://pratiksah.com" target="_blank">Pratik Sah</a></p>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
